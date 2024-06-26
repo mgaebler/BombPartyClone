@@ -83,15 +83,18 @@ struct ContentView: View {
     }
 }
 
+
+
 struct StartScreen: View {
     @Binding var gameState: GameState
-
+    
     var body: some View {
         VStack {
-            Image(systemName: "flame.fill") // Replace with your explosion image
+            Image("bomb")
                 .resizable()
-                .frame(width: 100, height: 100)
-                .padding()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 250)
+                .padding(.leading, 80)
             Text("Tick Tack Boom")
                 .font(.largeTitle)
                 .padding()
@@ -124,10 +127,11 @@ struct ActionScreen: View {
 
     var body: some View {
         VStack {
-            Image(systemName: "flame.fill") // Replace with your bomb image
+            Image("bomb")
                 .resizable()
-                .frame(width: 200, height: 200)
-                .padding()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 250)
+                .padding(.leading, 80)
                 .offset(y: bounce ? -10 : 10)
                 .animation(
                     Animation
@@ -183,13 +187,10 @@ struct EndScreen: View {
 
     var body: some View {
         VStack {
-            Text("Boom!")
-                .font(.largeTitle)
-                .padding()
-
-            Image(systemName: "flame.fill") // Replace with your explosion image
+            Image("explosion")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 250)
                 .padding()
                 .onAppear {
                     performExplosionAnimation()
