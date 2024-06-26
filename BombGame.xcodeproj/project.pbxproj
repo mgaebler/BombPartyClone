@@ -11,6 +11,9 @@
 		CC2CFA5C2C2B54BB00E4537A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2CFA5B2C2B54BB00E4537A /* ContentView.swift */; };
 		CC2CFA5E2C2B54BC00E4537A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFA5D2C2B54BC00E4537A /* Assets.xcassets */; };
 		CC2CFA612C2B54BC00E4537A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFA602C2B54BC00E4537A /* Preview Assets.xcassets */; };
+		CC2CFA682C2B6D2800E4537A /* blast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFA672C2B6D2800E4537A /* blast.mp3 */; };
+		CC2CFA6A2C2B7EEA00E4537A /* bg_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFA692C2B7EEA00E4537A /* bg_sound.mp3 */; };
+		CC2CFA6C2C2BA27000E4537A /* watch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC2CFA6B2C2BA27000E4537A /* watch.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CC2CFA5B2C2B54BB00E4537A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC2CFA5D2C2B54BC00E4537A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC2CFA602C2B54BC00E4537A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC2CFA672C2B6D2800E4537A /* blast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blast.mp3; path = ../../../../../Downloads/blast.mp3; sourceTree = "<group>"; };
+		CC2CFA692C2B7EEA00E4537A /* bg_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bg_sound.mp3; path = ../../../../../Downloads/bg_sound.mp3; sourceTree = "<group>"; };
+		CC2CFA6B2C2BA27000E4537A /* watch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = watch.mp3; path = ../../../../../Downloads/watch.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				CC2CFA592C2B54BB00E4537A /* BombGameApp.swift */,
 				CC2CFA5B2C2B54BB00E4537A /* ContentView.swift */,
 				CC2CFA5D2C2B54BC00E4537A /* Assets.xcassets */,
+				CC2CFA672C2B6D2800E4537A /* blast.mp3 */,
+				CC2CFA6B2C2BA27000E4537A /* watch.mp3 */,
+				CC2CFA692C2B7EEA00E4537A /* bg_sound.mp3 */,
 				CC2CFA5F2C2B54BC00E4537A /* Preview Content */,
 			);
 			path = BombGame;
@@ -127,6 +136,9 @@
 			files = (
 				CC2CFA612C2B54BC00E4537A /* Preview Assets.xcassets in Resources */,
 				CC2CFA5E2C2B54BC00E4537A /* Assets.xcassets in Resources */,
+				CC2CFA682C2B6D2800E4537A /* blast.mp3 in Resources */,
+				CC2CFA6A2C2B7EEA00E4537A /* bg_sound.mp3 in Resources */,
+				CC2CFA6C2C2BA27000E4537A /* watch.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
